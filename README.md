@@ -1,6 +1,6 @@
 # uLinux
 
-**uLinux** (micro/unnamed Linux) is a Buildroot-based Linux distribution targeting IoT gateways<sup>1</sup>. Albeit being currently aimed at Raspberry Pis, adaptating it to any other development board is straightforward.
+**uLinux** (micro/unnamed Linux) is a Buildroot-based Linux distribution targeting IoT gateways**<sup>1</sup>**. Albeit being currently aimed at Raspberry Pis, adaptating it to any other development board is straightforward.
 
 uLinux comes with its own updating infrastructure that enforces security by default. By implementing updates as the download of full filesystem images, their subsequent cryptographically-secure integrity verification and flashing, the system takes into account the constraints of IoT devices while guaranteeing confidentiality, integrity and source authentication of the update image.
 
@@ -28,4 +28,4 @@ It's responsible for asking for or being notified of new updates, downloading av
 Buildroot configurations that compile the Kernel, generate the system's initramfs and root filesystem and tools that enable the generation of complete RPi sdcard images and the upload it the root filesystem image to the Signing Server.
 
 ----
-<sup>1</sup> - A device that acts as an interface between lesser capable devices (e.g., sensors) and the Internet, translating protocols, doing initial processing of collected data and uploading it to an external API. An IoT gateway may have sensing capabilities in itself.
+**<sup>1</sup>** - A device that acts as an interface between lesser capable devices (e.g., sensors) and the Internet, translating protocols, doing initial processing of collected data and uploading it to an external API. An IoT gateway may have sensing capabilities in itself.
