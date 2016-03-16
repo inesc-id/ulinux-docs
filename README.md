@@ -7,7 +7,8 @@ uLinux comes with its own updating infrastructure that enforces security by defa
 ## Table of Contents
 1. [Design](#design)
 2. [Planned features](#planned-features)
-3. [License](#license)
+3. [Survey](#survey)
+4. [License](#license)
 
 ### Design
 
@@ -38,6 +39,10 @@ Buildroot configurations that compile the Kernel, generate the system's initramf
 - **Update Server Dashboard**: create a dashboard accessible by the developers and served by the Update Server that allows users to search for devices and read their statuses (firmware version, IP address, last time online, etc).
 
 - **Device Certificate Regeneration**: as it stands, the system relies on a client certificate to authenticate updating Devices. This feature would allow for the Device to be called by the Update Server to regenerate its certificate using the latest version of its Certificate Authority.
+
+### Survey
+
+We have a working prototype with a lot of missing features and we'd love to hear from you. Is this any good? Would you use it? Which features would you consider top priority? Please helps us out by filling this quick [survey](#link).
 
 ### License
 
