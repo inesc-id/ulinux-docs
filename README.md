@@ -6,7 +6,7 @@ uLinux comes with its own updating infrastructure that enforces security by defa
 
 ## Table of Contents
 1. [Design](#design)
-2. [Usage](#usage)
+2. [Planned features](#planned-features)
 3. [License](#license)
 
 ### Design
