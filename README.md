@@ -31,13 +31,13 @@ Buildroot configurations that compile the Kernel, generate the system's initramf
 
 ### Planned features
 
-- Automatic Port Forwarding using UPnP: the Device Daemon becomes responsible for setting up port forwarding to expose its endpoints to the Internet, when behind a NAT.
+- **Automatic Port Forwarding using UPnP**: the Device Daemon becomes responsible for setting up port forwarding to expose its endpoints to the Internet, when behind a NAT.
 
-- Automated Key Management: automatically add all required Keys, Certificates and Certificate Authorities to update image, before signing it, by the Signing Server.
+- **Automated Key Management**: automatically add all required Keys, Certificates and Certificate Authorities to update image, before signing it, by the Signing Server.
  
-- Update Server Dashboard: create a dashboard accessible by the developers and served by the Update Server that allows users to search for devices and read their statuses (firmware version, IP address, last time online, etc).
+- **Update Server Dashboard**: create a dashboard accessible by the developers and served by the Update Server that allows users to search for devices and read their statuses (firmware version, IP address, last time online, etc).
 
-- Device Certificate Regeneration: as it stands, the system relies on a client certificate to authenticate updating Devices. This feature would allow for the Device to be called by the Update Server to regenerate its certificate using the latest version of its Certificate Authority.
+- **Device Certificate Regeneration**: as it stands, the system relies on a client certificate to authenticate updating Devices. This feature would allow for the Device to be called by the Update Server to regenerate its certificate using the latest version of its Certificate Authority.
 
 ### License
 
