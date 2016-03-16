@@ -17,6 +17,12 @@ The Signing Server token is a randomly generated string with arbitrary length th
 ### Update Server <-> Device Daemon
 Both authenticate to each other by presenting their X.509 certificates during the TLS handshake phase of HTTP over TLS right before the downloading of the package file.
 
+### Image source authentication
+Source authentication of the downloaded update image is assured by the verification of its signed SHA512 hash present in the signature file that comes with the update package.
+
 ## Integrity
+In-transit integrity is assured by the system through the usage of HTTP through TLS.
+Integrity of the downloaded update image is assured by the verification of its signed SHA512 hash present in the signature file that comes with the update package. 
 
 ## Confidentiality
+In-transit confidentiality is assured by the system through the usage of HTTP through TLS. Once an image is downloaded to the device's memory, an attacker may be able to dump it and retrieve its contents.
