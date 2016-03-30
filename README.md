@@ -6,9 +6,7 @@ uLinux comes with its own updating infrastructure that enforces security by defa
 
 ## Presentation Video
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=g02llcWvSG0
-" target="_blank"><img src="http://img.youtube.com/vi/g02llcWvSG0/0.jpg" 
-alt="uLinux Presentation Video" width="100%" height="" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=g02llcWvSG0" target="_blank"><img src="http://img.youtube.com/vi/g02llcWvSG0/0.jpg" alt="uLinux Presentation Video" width="100%" height="" border="10" /></a>
 
 ## Table of Contents
 1. [Design](#design)
