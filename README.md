@@ -46,7 +46,7 @@ Buildroot configurations that compile the Kernel, generate the system's initramf
 
 ### Survey
 
-We have a working prototype with a lot of missing features and we'd love to hear from you. Is this any good? Would you use it? Which features would you consider top priority? Please helps us out by filling this quick [survey](#link).
+We have a working prototype with a lot of missing features and we'd love to hear from you. Is this any good? Would you use it? Which features would you consider top priority? Please helps us out by filling this quick [survey](http://goo.gl/forms/VxvIjZTdIb).
 
 ### License
 
