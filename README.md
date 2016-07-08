@@ -34,15 +34,19 @@ It's responsible for asking for or being notified of new updates, downloading av
 
 Buildroot configurations that compile the Kernel, generate the system's initramfs and root filesystem and tools that enable the generation of complete RPi sdcard images and the upload it the root filesystem image to the Signing Server.
 
-### Planned features
+### Implemented features
 
 - **Update Server notifies Devices of updates - requires Automatic Port Forwarding using UPnP**: the Device Daemon becomes responsible for setting up port forwarding to expose its endpoints to the Internet, when behind a NAT.
 
 - **Automated Key Management**: automatically add all required Keys, Certificates and Certificate Authorities to update image, before signing it, by the Signing Server.
  
+### Planned features
+
 - **Update Server Dashboard**: create a dashboard accessible by the developers and served by the Update Server that allows users to search for devices and read their statuses (firmware version, IP address, last time online, etc).
 
 - **Device Certificate Regeneration**: as it stands, the system relies on a client certificate to authenticate updating Devices. This feature would allow for the Device to be called by the Update Server to regenerate its certificate using the latest version of its Certificate Authority.
+
+- **Device information messages**: contain additional arbitrarily configured information in *I'm Alive* messages, such as: Uptime, Running processes, IP/Port pairs, Device firmware version, Wi-Fi network information, Error messages (Update process), Contents of arbitrary files in the filesystem (e.g. log files).
 
 ### Survey
 
